@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandramohan R | Full Stack Web Developer</title>
+    <meta name="description" content="Portfolio of Chandramohan R, Full Stack Web Developer specialized in building responsive and user-friendly web applications.">
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <!-- Navigation Sidebar -->
+    <aside id="sidebar">
+        <div class="sidebar-profile">
+            <div class="profile-pic">
+                 <img src="profile.jpeg" alt="Chandramohan R" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h1 class="sidebar-name">Chandramohan R</h1>
+            <span class="sidebar-job">Full Stack Developer</span>
+            <p class="sidebar-location">In India</p>
+        </div>
+
+        <nav class="sidebar-nav">
+            <ul id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Work</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="sidebar-actions">
+            <!-- Theme Toggle & Social Buttons if needed -->
+            <button id="theme-toggle" class="theme-toggle" style="background: none; border: 1px solid #ccc; padding: 5px 10px; cursor: pointer;">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </aside>
+
+    <div id="main-content">
+        <!-- Mobile Menu Toggle -->
+        <button class="hamburger-menu" id="sidebar-toggle" aria-label="Toggle Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero" style="background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('hero.png');">
+            <div class="hero-text fade-in">
+                <h1>I am <br><span class="text">a Full Stack Developer</span></h1>
+                <a href="#projects" class="btn-hero">View Portfolio <i class="fas fa-briefcase" style="margin-left: 10px;"></i></a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <span>ABOUT ME</span>
+                    <h2>WHO AM I?</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-visual fade-in fade-in-right" style="order: 2;">
+                        <img src="about-graphic.png" alt="Full Stack Development" style="width: 100%; max-width: 500px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+                    </div>
+                    <div class="about-text fade-in fade-in-left">
+                        <p class="lead">I am a passionate and dynamic <span class="highlight">Full Stack Developer</span> with a strong foundation in Javascript, HTML, and CSS.</p>
+                        <p>My journey in tech is driven by an insatiable curiosity and a deep passion for problem-solving. I thrive on translating complex requirements into elegant, efficient, and scalable real-world applications.</p>
+                        <p>Whether I'm crafting meticulous user interfaces or engineering robust backend logic, my ultimate focus remains steadfast: delivering impeccable user experiences and optimal performance.</p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-box">
+                                <i class="fas fa-code"></i>
+                                <h3>Full Stack</h3>
+                                <p>Development</p>
+                            </div>
+                            <div class="stat-box">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h3>Responsive</h3>
+                                <p>Design</p>
+                            </div>
+                            <div class="stat-box">
+                                <i class="fas fa-rocket"></i>
+                                <h3>High</h3>
+                                <p>Performance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding bg-alt">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <span>MY SKILLS</span>
+                    <h2>MY SPECIALTIES</h2>
+                </div>
+                <div class="skills-wrapper">
+                    <!-- Technical Skills -->
+                    <div class="skills-category fade-in fade-in-up">
+                        <h3 class="category-title"><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-pill">
+                                <i class="fab fa-html5" style="color: #E34F26;"></i> HTML5
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fab fa-css3-alt" style="color: #1572B6;"></i> CSS3
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fab fa-js" style="color: #F7DF1E;"></i> JavaScript
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fab fa-react" style="color: #61DAFB;"></i> React (Optional)
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fas fa-server" style="color: #2563eb;"></i> Web Development
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fas fa-mobile-screen" style="color: #10b981;"></i> Responsive Design
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skills-category fade-in fade-in-up" style="transition-delay: 0.2s;">
+                        <h3 class="category-title"><i class="fas fa-brain"></i> Soft Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-pill soft">
+                                <i class="fas fa-puzzle-piece"></i> Problem Solving
+                            </div>
+                            <div class="skill-pill soft">
+                                <i class="fas fa-lightbulb"></i> Critical Thinking
+                            </div>
+                            <div class="skill-pill soft">
+                                <i class="fas fa-tasks"></i> Project Management
+                            </div>
+                            <div class="skill-pill soft">
+                                <i class="fas fa-users"></i> Team Collaboration
+                            </div>
+                            <div class="skill-pill soft">
+                                <i class="fas fa-stopwatch"></i> Time Management
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br><br>
+                <div class="skills-category fade-in fade-in-up" style="transition-delay: 0.3s; padding-top: 2rem;">
+                     <h3 class="category-title"><i class="fas fa-language"></i> Languages</h3>
+                     <div class="skills-grid">
+                         <div class="skill-pill soft">English (Professional)</div>
+                         <div class="skill-pill soft">Tamil (Native)</div>
+                     </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section-padding">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <span>EXPERIENCE</span>
+                    <h2>WORK EXPERIENCE</h2>
+                </div>
+                <div class="timeline fade-in">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2026 – Present</div>
+                            <h3 class="timeline-role">Full Stack Web Developer</h3>
+                            <h4 class="timeline-company">Freelance / Company</h4>
+                            <ul class="timeline-list">
+                                <li>Conceptualized and worked on end-to-end frontend and backend development.</li>
+                                <li>Built highly scalable and fully responsive web applications using modern web technologies.</li>
+                                <li>Designed user-friendly interfaces focusing on conversion and seamless navigation.</li>
+                                <li>Optimized application performance and streamlined deployment processes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Add more experience items here if needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding bg-alt">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <span>MY PROJECTS</span>
+                    <h2>RECENT WORK</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card fade-in">
+                        <div class="project-img">
+                            <!-- Placeholder image using CSS gradient for demo -->
+                            <div class="project-placeholder bg-gradient-1">
+                                <i class="fas fa-helmet-safety"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" aria-label="View Code"><i class="fab fa-github"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Smart Helmet – Accident Detection System</h3>
+                            <p class="project-desc">
+                                An innovative IoT-based system utilizing Arduino. Engineered with precision sensors for rapid accident detection and features a real-time alert system to ensure immediate emergency response and rider safety.
+                            </p>
+                            <div class="project-tech">
+                                <span>Arduino</span>
+                                <span>IoT Sensors</span>
+                                <span>C++</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Placeholder Project 2 for layout demonstration -->
+                    <div class="project-card fade-in" style="transition-delay: 0.2s;">
+                        <div class="project-img">
+                            <div class="project-placeholder bg-gradient-2">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">E-Commerce Web Application</h3>
+                            <p class="project-desc">
+                                A full-featured modern e-commerce platform with a fully functional shopping cart, secure checkout process, user authentication, and responsive product catalogs.
+                            </p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certification Section -->
+        <section id="education" class="education section-padding">
+            <div class="container">
+                <div class="edu-cert-container">
+                    <!-- Education -->
+                    <div class="education-section fade-in fade-in-left">
+                        <div class="section-title">
+                            <span>EDUCATION</span>
+                            <h2>ACADEMIC BACKGROUND</h2>
+                        </div>
+                        <div class="education-card">
+                            <div class="edu-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="edu-details">
+                                <h3 class="edu-degree">B.Tech in Artificial Intelligence & Data Science</h3>
+                                <h4 class="edu-institute">Dhanalakshmi Srinivasan University</h4>
+                                <div class="edu-meta">
+                                    <span class="edu-year"><i class="far fa-calendar-alt"></i> Class of 2026</span>
+                                    <span class="edu-score"><i class="fas fa-star"></i> CGPA: 7.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="cert-section fade-in fade-in-right">
+                        <div class="section-title">
+                            <span>CERTIFICATIONS</span>
+                            <h2>PROOFS OF SKILLS</h2>
+                        </div>
+                        <div class="cert-list">
+                            <div class="cert-card">
+                                <div class="cert-icon"><i class="fas fa-award"></i></div>
+                                <div class="cert-info">
+                                    <h3>Data Analytics</h3>
+                                    <p>Vel Tech</p>
+                                </div>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon"><i class="fas fa-award"></i></div>
+                                <div class="cert-info">
+                                    <h3>Full Stack Development</h3>
+                                    <p>Rinex</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding bg-alt">
+            <div class="container">
+                <div class="section-title text-center fade-in">
+                    <span>CONTACT ME</span>
+                    <h2>GET IN TOUCH</h2>
+                    <p class="contact-subtitle">Have a project in mind or want to collaborate? Feel free to reach out!</p>
+                </div>
+                
+                <div class="contact-wrapper fade-in">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+1234567890">+91 6369544119</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p><a href="mailto:cm083912@gmail.com">cm083912@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-circle"><i class="fab fa-linkedin-in"></i></div>
+                            <div class="contact-text">
+                                <h3>LinkedIn</h3>
+                                <p><a href="https://www.linkedin.com/in/chandramohan-r-388b88373" target="_blank">Connect on LinkedIn</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div> <!-- end main-content -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Chandra<span>mohan.</span></h2>
+                    <p>Building digital experiences that matter.</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/chandramohan-r-388b88373" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Chandramohan2005" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Chandramohan R. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
